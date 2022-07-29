@@ -1,2 +1,2 @@
-# awesome-hackers-cheatsheet
-Cheatsheets and notes for my pentesting yourney
+# Awesome Hackers Cheatsheet
+Cheatsheets and notes for my pentesting journey.

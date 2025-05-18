@@ -15,3 +15,10 @@ Sometimes, `.git` directories are exposed because innocent developers just deplo
 - On Hack The Box, VHost and content discovery is key!
 - Search for Names, usernames and email addresses on the site! Note everything, even if it seems irrelevant at first. Sometimes these usernames or emails can come handy and are used later on for #pivoting and #lateral-movement in combination with weak and/or reused credentials
 - If you have the source code, search it for usernames and email addresses (just search for the company domain for example `@example.com`) in configs and comments
+
+**TLDR**:
+1. VHost Discovery
+2. Try to find tech stack
+3. Directory Discovery
+4. Collect names, usernames, emails, passwords
+5. Try to get Source Code, search for names, usernames, emails, passwords
